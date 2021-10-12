@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  background-color: cornsilk;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+h1.menu {
+  font-size: 70px;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  color: rgb(48, 29, 6);
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Satisfy", cursive;
+}
+p {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Satisfy", cursive;
+  font-family: "Shadows Into Light", cursive;
+}
+.oom {
+  border: 0.3px solid black;
+  background-image: url("oom background.jpg");
+  margin: 7px;
+  padding-left: 0.5em;
+}
+.oom > h2 {
+  padding: 0.5px;
+  float: right;
+  border: 0.1px solid black;
+  text-align: center;
+  min-width: 15rem;
+  font-weight: bold;
+  margin: 0.7em 0.97em 0 0;
+}
+
+.oom > p {
+  padding: 0.25px;
+  font-size: 24px;
+  min-height: 12rem;
+}
+.boxbox1 .oom > h2 {
+  background-color: blanchedalmond;
+}
+.boxbox2 .oom > h2 {
+  background-color: rgb(191, 236, 161);
+}
+.boxbox3 .oom > h2 {
+  background-color: rgb(136, 173, 151);
+}
+
+@media (min-width: 1200px) {
+  .media1 {
+    float: left;
+    width: 33.33%;
+  }
+}
+@media (min-width: 1200px) {
+  .media2 {
+    float: left;
+    width: 33.33%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .media1 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .media2 {
+    float: left;
+    width: 100%;
+  }
+}
