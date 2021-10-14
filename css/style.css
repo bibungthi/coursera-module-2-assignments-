@@ -23,9 +23,9 @@ p {
 }
 .oom {
   border: 0.3px solid black;
-  background-image: url("oom background.jpg");
   margin: 7px;
   padding-left: 0.5em;
+  background-color: cyan;
 }
 .oom > h2 {
   padding: 0.5px;
