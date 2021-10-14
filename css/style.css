@@ -2,9 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("background1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgb(212, 151, 151);
 }
 header {
   background-color: cornsilk;
@@ -15,19 +13,13 @@ header {
 h1.menu {
   font-size: 70px;
   text-align: center;
-  font-family: "Satisfy", cursive;
   color: rgb(48, 29, 6);
 }
 
 h2 {
   font-size: 40px;
-  font-family: "Architects Daughter", cursive;
-  font-family: "Satisfy", cursive;
 }
 p {
-  font-family: "Architects Daughter", cursive;
-  font-family: "Satisfy", cursive;
-  font-family: "Shadows Into Light", cursive;
 }
 .oom {
   border: 0.3px solid black;
